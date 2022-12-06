@@ -10,9 +10,9 @@ class SongList extends React.Component {
                <div className='item ' key={song.title}>
                  <div className='right floated content'>
                   <button className='ui button primary' 
-                  onClick={()=>{
+                  onClick={()=>
                     this.props.selectSong(song)
-                  }}
+                  }
                   >
                     Select
                   </button>
